@@ -9,9 +9,9 @@ import threading
 import json
 from os import environ
 
-bot_token = environ.get("TOKEN", "") 
-api_hash = environ.get("HASH", "") 
-api_id = int(environ.get("ID", ""))
+bot_token = environ.get("TOKEN", "7352893042:AAHf9uLQQ5Vw6R_FwGHHZtLiVuI0vM8AtpQ") 
+api_hash = environ.get("HASH", "d97919fb0a3c725e8bb2a25bbb37d57c") 
+api_id = int(environ.get("ID", "21179966"))
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 ss = environ.get("STRING", "")
